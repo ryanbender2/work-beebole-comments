@@ -1,0 +1,95 @@
+/*
+* Globals
+*/
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+
+/*
+* Base structure
+*/
+
+html,
+body {
+    background-color: #333;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    height: 100%;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+/*
+* Cover
+*/
+
+.cover {
+    padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+/*
+* Main
+*/
+
+main {
+    max-width: 700px;
+}
+
+.list-group-item:hover {
+    color: rgb(61, 159, 180);
+    font-weight: 500;
+}
+
+.list-group-item {
+    font-size: 1em;
+}
+
+@media (max-width: 500px) {
+    .list-group-item {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 400px) {
+    .list-group-item {
+        font-size: .8em;
+    }
+}
+
+/*
+* Footer
+*/
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}
+
+.freepik {
+    font-size: .7em;
+}
+
+.made-by-me {
+    font-size: 1em;
+}
