@@ -14,7 +14,7 @@ $().ready(function() {
         "Scheduled / Regular Meeting(s)",
         "Project Management Duties",
         "QA Activities",
-        "Sr.  Leadership Activities",
+        "Sr. Leadership Activities",
         "Test Activities",
         "Trouble Ticket / Troubleshooting Activities",
         "Tech Lead Activities"
