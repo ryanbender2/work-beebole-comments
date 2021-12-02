@@ -16,7 +16,7 @@ $().ready(function() {
         "QA Activities",
         "Sr.  Leadership Activities",
         "Test Activities",
-        "Trouble Ticket/ Troubleshooting Activities",
+        "Trouble Ticket / Troubleshooting Activities",
         "Tech Lead Activities"
     ];
 
